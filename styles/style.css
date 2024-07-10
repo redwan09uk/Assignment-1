@@ -52,3 +52,40 @@ button{
 }
 
 /* header section end here */
+
+/* first section style start here */
+
+.web-development-frame{
+    width: 1140px;
+    height: 1395px;
+    border: 2px solid red;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin:0 auto;
+}
+.web-development-container{
+    width: 946px;
+    height: 1235px;
+    border: 2px solid green;
+    text-align: center;
+    margin: 0 auto;
+    margin: 80px 90px;
+}
+
+.web-development-container h2{
+    width: 852px;
+    height: 39px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 63px;
+}
+
+.web-development-container p{
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+  
+}
