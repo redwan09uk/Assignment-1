@@ -57,8 +57,7 @@ button{
 
 .web-development-frame{
     width: 1140px;
-    height: 1395px;
-    border: 2px solid red;
+    height: 1200px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     margin:0 auto;
@@ -66,26 +65,112 @@ button{
 .web-development-container{
     width: 946px;
     height: 1235px;
-    border: 2px solid green;
-    text-align: center;
     margin: 0 auto;
     margin: 80px 90px;
-}
 
+}
 .web-development-container h2{
-    width: 852px;
-    height: 39px;
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
-    padding-bottom: 63px;
+    text-align: center;
 }
 
 .web-development-container p{
-    width: 852px;
-    height: 52px;
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
+    text-align: center;
+    margin-top:24px;
+    
+}
+.web-development-content-first, .web-development-content-second, .web-development-content-third{
+    width: 946px;
+    height: 336px;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.first-leftside-content h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 32px 0px;
+    
+}
+
+.second-leftside-content h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 32px 0px;
+}
+
+.first-leftside-content p{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+}
+
+.second-leftside-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    }
+
+
+.first-leftside-content, .second-leftside-content{
+    width: 477px;
+    height: 219px; 
   
 }
+
+
+.web-development-content-first{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+}
+
+.web-development-content-second{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+}
+
+.web-development-content-third{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+}
+
+.btn{
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+/* first section style end here */
+
+
+
+
+
+
+
+
+
+
+
+
