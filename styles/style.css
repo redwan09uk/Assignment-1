@@ -168,15 +168,19 @@ text-align: left;
 .my-inspiration{
     width: 1140px;
     height: 775px;
-    border: 2px solid red;
+    box-sizing: border-box;
     margin:0 auto;
+    padding: 32px; 
+    margin-bottom:70px;
+    
 }
+
 .my-inspiration-content h2{
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
     text-align: center;
-    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .my-inspiration-content p{
@@ -190,14 +194,21 @@ text-align: left;
     margin-bottom: 25px;
 
 }
-
-.vdo{
+.vdo-container{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius:16px;
     width: 1140px;
     height: 614px;
-    margin: 0 auto;
-    border-radius: 50px;
-    border:5px solid red;
-    padding:25px;
+    padding:32px;
+    box-sizing: border-box;
+
+}
+.vdo{
+    
+     margin: 10px 0px;
+     border-radius: 16px;
+
+
 }
 /* My Inspiration section start here */
 
