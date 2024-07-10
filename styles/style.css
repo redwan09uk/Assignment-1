@@ -163,6 +163,43 @@ text-align: left;
 }
 /* first section style end here */
 
+/* My Inspiration section start here */
+
+.my-inspiration{
+    width: 1140px;
+    height: 775px;
+    border: 2px solid red;
+    margin:0 auto;
+}
+.my-inspiration-content h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.my-inspiration-content p{
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin:0 auto;
+    margin-bottom: 25px;
+
+}
+
+.vdo{
+    width: 1140px;
+    height: 614px;
+    margin: 0 auto;
+    border-radius: 50px;
+    border:5px solid red;
+    padding:25px;
+}
+/* My Inspiration section start here */
 
 
 
