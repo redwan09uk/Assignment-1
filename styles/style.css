@@ -49,6 +49,11 @@ button{
     background: rgb(13, 19, 33);
     padding: 20px;
     margin-top: 32px;
+    
+}
+
+button a{
+    text-decoration: none;
 }
 
 /* header section end here */
@@ -324,7 +329,7 @@ text-align: left;
 /* current target style ends here */
 
 /* information style start here */
-.information-container{
+#information-container{
     width: 1140px;
     height: 313px;
     margin:0 auto;
@@ -382,7 +387,38 @@ text-align: left;
 }
 /* information style end here */
 
+/* footer style start here */
+.footer-container{
+    width: 1440px;
+    height: 100px;
+    margin:0 auto;
+    margin-top: 80px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    
 
+}
+
+.footer-content{
+    width: 1140px;
+    height: 36px;
+    margin:0 auto;
+    margin: 32px 0px;
+    margin-left: 142px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+}
+
+.footer-content h6{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+/* footer style end here */
 
 
 
