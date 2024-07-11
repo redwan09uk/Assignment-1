@@ -181,6 +181,7 @@ text-align: left;
     font-weight: 800;
     text-align: center;
     margin-top: 25px;
+    margin-bottom:10px;
 }
 
 .my-inspiration-content p{
@@ -204,16 +205,182 @@ text-align: left;
 
 }
 .vdo{
-    
-     margin: 10px 0px;
-     border-radius: 16px;
-
+    border-radius:16px;     
+    margin: 10px 0px;
 
 }
 /* My Inspiration section start here */
 
 
+/* current target style start here */
+.current-target-container{
+    width: 1140px;
+    height: 460px;
+    margin:0 auto;
+    padding-bottom: 48px;
+   
+    
+}
 
+.current-target-content{
+    width: 946px;
+    height: 113px;
+    margin:0 auto;
+   
+}
+
+.current-target-content h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+    width: 852px;
+    height: 37px;
+    
+}
+
+.current-target-content p{
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 24px 0px;
+}
+
+.parent-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left:12px;
+  
+}
+.current-target-content-task{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin: 10px 0;    
+}
+
+.current-target-content-body{
+    width: 284px;
+    height: 219px;
+    padding: 0px;
+    margin: 32px 0px;
+         
+}
+
+.current-target-content-icon{
+    width: 12.45px;
+    height: 28.12px;
+    left: 27.98px;
+    top: 19.28px;
+    background: rgb(255, 255, 255);
+ 
+}
+.current-target-content-text{
+    width: 284px;
+    height: 139px;
+    margin: 16px 0px;
+    
+}
+
+.current-target-content-text h4{
+    width: 284px;
+    height: 36px;
+    padding-top: 15px;
+    margin: 8px 0px;
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    
+}
+
+.current-target-content-text p{
+    width: 284px;
+    height: 52px;
+    margin: 8px 0px;
+    color: rgb(13, 19, 33);
+   font-size: 16px;
+   font-weight: 400;
+   opacity: 0.7;
+  
+}
+
+.current-target-content-text h6{
+    width: 284px;
+    height: 19px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;  
+}
+
+/* current target style ends here */
+
+/* information style start here */
+.information-container{
+    width: 1140px;
+    height: 313px;
+    margin:0 auto;
+    border-radius: 16px;
+    background-image: url(../assets/handshake.jpg);
+    text-align: center;
+
+}
+
+.information-content{
+    width: 1044px;
+    height: 185px;
+    margin: 32px 0px;
+    
+}
+
+.information-content-text h5{
+    
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+ 
+}
+
+.information-content-text p{
+    color: rgb(255, 255, 255);
+   font-size: 16px;
+   font-weight: 400;
+   margin: 16px 0px;
+   
+}
+
+.suggestion-box {
+    padding: 19px 20px 19px 20px;
+    color: rgba(13, 19, 33, 0.4); 
+    font-size: 16px;
+    font-weight: 400;
+}
+.suggestion-box input[type="text"] {
+    width: 313px; 
+    padding: 19px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;}
+
+.submit{
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color:black;
+    padding: 17px 20px 17px 20px;
+
+}
+/* information style end here */
 
 
 
